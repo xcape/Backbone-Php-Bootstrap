@@ -1,13 +1,9 @@
 <?php
-	require 'Slim/Slim.php';
+	require 'config.php';
+	require 'Slim/Slim.php';require 'Slim/Slim.php';
 	require('Vendor/PDOWrapper/PDOWrapper.php');
 	
 	\Slim\Slim::registerAutoloader();
-
-	define('_BDHOST','127.0.0.1');
-	define('_BD','bb_example');
-	define('_BDUSER','');
-	define('_BDPSWD','');
 
 	// Instanciamos nuestra aplicación
 	$app = new \Slim\Slim();
