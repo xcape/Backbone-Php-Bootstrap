@@ -1,6 +1,6 @@
 <?php
-	require 'config.php';
-	require 'Slim/Slim.php';require 'Slim/Slim.php';
+	require ('config.php');
+	require 'Slim/Slim.php';
 	require('Vendor/PDOWrapper/PDOWrapper.php');
 	
 	\Slim\Slim::registerAutoloader();
