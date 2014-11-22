@@ -18,7 +18,7 @@ Modo de uso
 
 * Descarge los archivos en su directrorio WWWW de su servidor.
 * Ejecute el codigo SQL para instalar el script
-* Cambie los parametros de la base de datos en el archivo /api/index.php:
+* Cambie los parametros de la base de datos en el archivo /api/config.php:
 
 	define('_BDHOST','127.0.0.1');
 	
